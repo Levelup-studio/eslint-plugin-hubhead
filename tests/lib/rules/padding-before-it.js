@@ -25,6 +25,12 @@ ruleTester.run("padding-before-it", rule, {
     {
       code: `var a = 5;\n\ndescribe('mocha describe')`,
     },
+    {
+      code: `it('mocha test')`,
+    },
+    {
+      code: `describe('mocha describe')`,
+    },
   ],
 
   invalid: [
