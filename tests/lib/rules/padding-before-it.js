@@ -31,6 +31,9 @@ ruleTester.run("padding-before-it", rule, {
     {
       code: `describe('mocha describe')`,
     },
+    {
+      code: `describe('mocha describe', function() {\nit();\n})`,
+    },
   ],
 
   invalid: [
